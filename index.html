@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="la description" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/svg" href="./assets/logo.svg" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <title>Accessibilité</title>
+  </head>
+
+  <body>
+    <div class="main" role="main">
+      <div class="header" role="heading" aria-labelledby="firsttitle">
+        <h1 id="firsttitle">
+          Titre de la page
+          <i class="fab fa-accessible-icon" aria-hidden="false"></i>
+        </h1>
+      </div>
+    </div>
+    <div class="section" role="region">
+      <h2>titre</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quia
+        excepturi, sequi eveniet consequuntur, ab cupiditate molestiae itaque
+        accusamus sunt magni eos. Quas iure laborum cumque illum sunt numquam
+        necessitatibus.
+      </p>
+      <button aria-label="delete">Supprimer</button>
+    </div>
+    <div class="footer" role="contentinfo">
+      <p>Contenu de la page <span aria-label="Mit"</p>
+    </div>
+  </body>
+</html>
