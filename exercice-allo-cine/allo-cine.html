@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allo ciné</title>
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" type="image/png" href="images/ico_cine.png" />
+    <link rel="stylesheet" href="css_screen/screen_boxoffice.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://assets.allocine.fr/skin/img/allocine/logo-main-5f12bf0a15.svg"
+        alt="films à l'affiche"
+        aria-hidden="true"
+      />
+      <h1>Films à l'affiche</h1>
+    </header>
+    <ul itemscope itemtype="https://schema.org/Movie">
+      <li class="titre" itemprop="name">Au nom de la terre</li>
+      <li>
+        Genre <span class="genre" itemprop="genre">Drame</span>: durée
+        <span class="duree" itemprop="duration">1h43min</span>
+      </li>
+      <li>
+        Réalisateur :
+        <span class="realisateur" itemprop="director">Edouard Bergeon</span>
+      </li>
+      <li class="date">
+        Date de sortie :
+        <span class="sortie" itemprop="text">
+          <time datetime="2019-09-25" itemprop="datePublished"
+            >25 septembre 2019</time
+          ></span
+        >
+      </li>
+      <li class="link-info" itemprop="name">
+        <!--liens-->
+        <a href="#" itemprop="url">Lire plus &raquo;</a>
+        <div class="info-affiche" role="contentinfo">
+          <p>
+            <img
+              src="http://fr.web.img2.acsta.net/c_215_290/pictures/19/07/08/10/23/4463537.jpg"
+              alt="affiche"
+              itemprop="image"
+            />
+          </p>
+        </div>
+        <meta itemprop="position" content="1" />
+        <!-- positionner l'information par priorité -->
+      </li>
+
+      <li class="titre" itemprop="name">Joker</li>
+      <li>
+        Genre <span class="genre" itemprop="genre">Drame</span>: durée
+        <span class="duree" itemprop="duration">2h02min</span>
+      </li>
+      <li>
+        Réalisateur :
+        <span class="realisateur" itemprop="director"> Todd Phillips</span>
+      </li>
+      <li class="date">
+        Date de sortie :
+        <span class="sortie" itemprop="text"
+          ><time datetime="2019-09-09" itemprop="datePublished"
+            >9 octobre 2019</time
+          ></span
+        >
+      </li>
+      <li class="link-info" itemprop="name">
+        <!--liens-->
+        <a href="#" itemprop="url">Lire plus &raquo;</a>
+        <div class="info-affiche" role="contentinfo">
+          <p>
+            <img
+              src="http://fr.web.img6.acsta.net/c_215_290/pictures/19/09/03/12/02/4765874.jpg"
+              alt="affiche"
+              itemprop="image"
+            />
+          </p>
+        </div>
+        <meta itemprop="position" content="1" />
+      </li>
+    </ul>
+  </body>
+</html>
+
+<!-- voir avec l'outil de test des données structurée et "prévisualisation" -->

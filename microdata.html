@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Les Microdatas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Adresse internaute</h1>
+    </header>
+    <address class="adress" role="contentinfo">
+      <ul itemscope itemtype="https://schema.org/PostalAddress">
+        <!-- on place le vocabulaire dans le parent, ici/ -->
+        <li itemprop="streetAddress">83 rue Jean Pierre Timbaud</li>
+        <li itemprop="postalCode">75011</li>
+        <li itemprop="addressLocality">Paris</li>
+        <li itemprop="addressCountry">France</li>
+        <!-- itemprop : vocubulaire de schema.org -->
+      </ul>
+    </address>
+  </body>
+</html>
